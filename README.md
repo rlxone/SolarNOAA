@@ -1,4 +1,4 @@
-# Solar
+# Solar 🌞
 Calculation of local times of sunrise, solar noon, sunset, azimuth, elevation based on the calculation procedure by NOAA
 
 ### azimuth
