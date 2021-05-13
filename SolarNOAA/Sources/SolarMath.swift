@@ -8,7 +8,7 @@
 
 import Foundation
 
-class SolarMath {
+struct SolarMath {
     /// Julian day from calendar day
     ///
     /// - Parameters:

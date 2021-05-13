@@ -47,7 +47,7 @@ import Foundation
 /// Antarctic Circle, when a sunrise or sunset does not occur.
 ///
 /// Translated from VBA to Swift by rlxone
-class Solar {
+public struct Solar {
     /// Calculate solar azimuth (deg from north) for the entered
     /// date, time and location. Returns -999999 if darker than twilight
     ///
@@ -69,7 +69,7 @@ class Solar {
     /// longitude to positive for the western hemisphere for calls to
     /// other functions using the original sign convention
     /// from the NOAA javascript code.
-    static func azimuth(lat: Double, lon: Double,
+    public static func azimuth(lat: Double, lon: Double,
                              year: Int, month: Int, day: Int,
                              hours: Int, minutes: Int, seconds: Int,
                              timezone: Int, dlstime: Int) -> Double {
@@ -187,7 +187,7 @@ class Solar {
     /// longitude to positive for the western hemisphere for calls to
     /// other functions using the original sign convention
     /// from the NOAA javascript code.
-    static func elevation(lat: Double, lon: Double,
+    public static func elevation(lat: Double, lon: Double,
                                year: Int, month: Int, day: Int,
                                hours: Int, minutes: Int, seconds: Int,
                                timezone: Int, dlstime: Int) -> Double {
@@ -329,7 +329,7 @@ class Solar {
     /// longitude to positive for the western hemisphere for calls to
     /// other functions using the original sign convention
     /// from the NOAA javascript code.
-    static func dawn(lat: Double, lon: Double,
+    public static func dawn(lat: Double, lon: Double,
                      year: Int, month: Int, day: Int,
                      timezone: Int, dlstime: Int, solardepression: Double) -> Double {
         var longitude: Double = 0.0, latitude: Double = 0.0, jd: Double = 0.0
@@ -372,7 +372,7 @@ class Solar {
     /// longitude to positive for the western hemisphere for calls to
     /// other functions using the original sign convention
     /// from the NOAA javascript code.
-    static func sunrise(lat: Double, lon: Double,
+    public static func sunrise(lat: Double, lon: Double,
                         year: Int, month: Int, day: Int,
                         timezone: Int, dlstime: Int) -> Double {
         var longitude: Double = 0.0, latitude: Double = 0.0, jd: Double = 0.0
@@ -417,7 +417,7 @@ class Solar {
     /// longitude to positive for the western hemisphere for calls to
     /// other functions using the original sign convention
     /// from the NOAA javascript code.
-    static func solarnoon(lat: Double, lon: Double,
+    public static func solarnoon(lat: Double, lon: Double,
                           year: Int, month: Int, day: Int,
                           timezone: Int, dlstime: Int) -> Double {
         var longitude: Double = 0.0, latitude: Double = 0.0, jd: Double = 0.0
@@ -467,7 +467,7 @@ class Solar {
     /// longitude to positive for the western hemisphere for calls to
     /// other functions using the original sign convention
     /// from the NOAA javascript code.
-    static func sunset(lat: Double, lon: Double,
+    public static func sunset(lat: Double, lon: Double,
                        year: Int, month: Int, day: Int,
                        timezone: Int, dlstime: Int) -> Double {
         var longitude: Double = 0.0, latitude: Double = 0.0, jd: Double = 0.0
@@ -516,7 +516,7 @@ class Solar {
     /// longitude to positive for the western hemisphere for calls to
     /// other functions using the original sign convention
     /// from the NOAA javascript code.
-    static func dusk(lat: Double, lon: Double,
+    public static func dusk(lat: Double, lon: Double,
                      year: Int, month: Int, day: Int,
                      timezone: Int, dlstime: Int, solardepression: Double) -> Double {
         var longitude: Double = 0.0, latitude: Double = 0.0, jd: Double = 0.0
@@ -542,4 +542,3 @@ class Solar {
         return setTimeLST / 1440
     }
 }
-

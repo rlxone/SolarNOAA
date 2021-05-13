@@ -1,5 +1,5 @@
 //
-//  FloatingPoint+Degrees.swift
+//  FloatingPoint.swift
 //  Test
 //
 //  Created by Dmitry Medyuho on 8/21/18.
