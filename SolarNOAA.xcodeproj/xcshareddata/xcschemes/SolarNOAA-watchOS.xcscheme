@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F35B1C34264DCF1700315997"
-               BuildableName = "SolarNOAA_watchOS.framework"
+               BuildableName = "SolarNOAA.framework"
                BlueprintName = "SolarNOAA-watchOS"
                ReferencedContainer = "container:SolarNOAA.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F35B1C34264DCF1700315997"
-            BuildableName = "SolarNOAA_watchOS.framework"
+            BuildableName = "SolarNOAA.framework"
             BlueprintName = "SolarNOAA-watchOS"
             ReferencedContainer = "container:SolarNOAA.xcodeproj">
          </BuildableReference>

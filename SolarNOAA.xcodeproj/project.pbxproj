@@ -10,17 +10,27 @@
 		F35B1C51264DD14600315997 /* Solar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C4E264DD14600315997 /* Solar.swift */; };
 		F35B1C52264DD14600315997 /* SolarMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C4F264DD14600315997 /* SolarMath.swift */; };
 		F35B1C53264DD14600315997 /* FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C50264DD14600315997 /* FloatingPoint.swift */; };
+		F35B1D26264E0B6800315997 /* SolarMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C4F264DD14600315997 /* SolarMath.swift */; };
+		F35B1D27264E0B6800315997 /* Solar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C4E264DD14600315997 /* Solar.swift */; };
+		F35B1D28264E0B6800315997 /* FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C50264DD14600315997 /* FloatingPoint.swift */; };
+		F35B1D29264E0B6800315997 /* SolarMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C4F264DD14600315997 /* SolarMath.swift */; };
+		F35B1D2A264E0B6800315997 /* Solar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C4E264DD14600315997 /* Solar.swift */; };
+		F35B1D2B264E0B6800315997 /* FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C50264DD14600315997 /* FloatingPoint.swift */; };
+		F35B1D2C264E0B6900315997 /* SolarMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C4F264DD14600315997 /* SolarMath.swift */; };
+		F35B1D2D264E0B6900315997 /* Solar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C4E264DD14600315997 /* Solar.swift */; };
+		F35B1D2E264E0B6900315997 /* FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C50264DD14600315997 /* FloatingPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F35B1C18264DCECD00315997 /* SolarNOAA_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SolarNOAA_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35B1C18264DCECD00315997 /* SolarNOAA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SolarNOAA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35B1C1C264DCECD00315997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F35B1C28264DCEFF00315997 /* SolarNOAA_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SolarNOAA_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F35B1C35264DCF1700315997 /* SolarNOAA_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SolarNOAA_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F35B1C42264DCF2900315997 /* SolarNOAA_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SolarNOAA_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35B1C28264DCEFF00315997 /* SolarNOAA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SolarNOAA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35B1C35264DCF1700315997 /* SolarNOAA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SolarNOAA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35B1C42264DCF2900315997 /* SolarNOAA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SolarNOAA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35B1C4E264DD14600315997 /* Solar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solar.swift; sourceTree = "<group>"; };
 		F35B1C4F264DD14600315997 /* SolarMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolarMath.swift; sourceTree = "<group>"; };
 		F35B1C50264DD14600315997 /* FloatingPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingPoint.swift; sourceTree = "<group>"; };
+		F35B1DA0264EAA2900315997 /* SolarNOAA.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SolarNOAA.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,29 +68,22 @@
 		F35B1C0E264DCECD00315997 = {
 			isa = PBXGroup;
 			children = (
-				F35B1C1A264DCECD00315997 /* SolarNOAA */,
+				F35B1C4C264DD07300315997 /* Sources */,
+				F35B1C4D264DD07900315997 /* Support Files */,
 				F35B1C19264DCECD00315997 /* Products */,
+				F35B1D9F264EAA2900315997 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		F35B1C19264DCECD00315997 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F35B1C18264DCECD00315997 /* SolarNOAA_iOS.framework */,
-				F35B1C28264DCEFF00315997 /* SolarNOAA_macOS.framework */,
-				F35B1C35264DCF1700315997 /* SolarNOAA_watchOS.framework */,
-				F35B1C42264DCF2900315997 /* SolarNOAA_tvOS.framework */,
+				F35B1C18264DCECD00315997 /* SolarNOAA.framework */,
+				F35B1C28264DCEFF00315997 /* SolarNOAA.framework */,
+				F35B1C35264DCF1700315997 /* SolarNOAA.framework */,
+				F35B1C42264DCF2900315997 /* SolarNOAA.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F35B1C1A264DCECD00315997 /* SolarNOAA */ = {
-			isa = PBXGroup;
-			children = (
-				F35B1C4C264DD07300315997 /* Sources */,
-				F35B1C4D264DD07900315997 /* Support Files */,
-			);
-			path = SolarNOAA;
 			sourceTree = "<group>";
 		};
 		F35B1C4C264DD07300315997 /* Sources */ = {
@@ -99,6 +102,19 @@
 				F35B1C1C264DCECD00315997 /* Info.plist */,
 			);
 			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		F35B1D9F264EAA2900315997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F35B1DA0264EAA2900315997 /* SolarNOAA.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F35B1DA1264EAA2900315997 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +166,7 @@
 			);
 			name = "SolarNOAA-iOS";
 			productName = SolarNOAA;
-			productReference = F35B1C18264DCECD00315997 /* SolarNOAA_iOS.framework */;
+			productReference = F35B1C18264DCECD00315997 /* SolarNOAA.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F35B1C27264DCEFF00315997 /* SolarNOAA-macOS */ = {
@@ -168,7 +184,7 @@
 			);
 			name = "SolarNOAA-macOS";
 			productName = SolarNOAA;
-			productReference = F35B1C28264DCEFF00315997 /* SolarNOAA_macOS.framework */;
+			productReference = F35B1C28264DCEFF00315997 /* SolarNOAA.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F35B1C34264DCF1700315997 /* SolarNOAA-watchOS */ = {
@@ -186,7 +202,7 @@
 			);
 			name = "SolarNOAA-watchOS";
 			productName = SolarNOAA;
-			productReference = F35B1C35264DCF1700315997 /* SolarNOAA_watchOS.framework */;
+			productReference = F35B1C35264DCF1700315997 /* SolarNOAA.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F35B1C41264DCF2900315997 /* SolarNOAA-tvOS */ = {
@@ -204,7 +220,7 @@
 			);
 			name = "SolarNOAA-tvOS";
 			productName = SolarNOAA;
-			productReference = F35B1C42264DCF2900315997 /* SolarNOAA_tvOS.framework */;
+			productReference = F35B1C42264DCF2900315997 /* SolarNOAA.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -241,6 +257,12 @@
 			mainGroup = F35B1C0E264DCECD00315997;
 			productRefGroup = F35B1C19264DCECD00315997 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F35B1DA1264EAA2900315997 /* Products */;
+					ProjectRef = F35B1DA0264EAA2900315997 /* SolarNOAA.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F35B1C17264DCECD00315997 /* SolarNOAA-iOS */,
@@ -297,6 +319,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35B1D28264E0B6800315997 /* FloatingPoint.swift in Sources */,
+				F35B1D26264E0B6800315997 /* SolarMath.swift in Sources */,
+				F35B1D27264E0B6800315997 /* Solar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +329,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35B1D2B264E0B6800315997 /* FloatingPoint.swift in Sources */,
+				F35B1D29264E0B6800315997 /* SolarMath.swift in Sources */,
+				F35B1D2A264E0B6800315997 /* Solar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +339,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35B1D2E264E0B6900315997 /* FloatingPoint.swift in Sources */,
+				F35B1D2C264E0B6900315997 /* SolarMath.swift in Sources */,
+				F35B1D2D264E0B6900315997 /* Solar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,12 +475,13 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "SolarNOAA/Support Files/Info.plist";
+				INFOPLIST_FILE = "Support Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -458,7 +490,9 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rlxone.SolarNOAA;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SolarNOAA;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -471,12 +505,13 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "SolarNOAA/Support Files/Info.plist";
+				INFOPLIST_FILE = "Support Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -485,7 +520,9 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rlxone.SolarNOAA;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SolarNOAA;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -496,13 +533,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "SolarNOAA/Support Files/Info.plist";
+				INFOPLIST_FILE = "Support Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -511,7 +549,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rlxone.SolarNOAA;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SolarNOAA;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -522,13 +561,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "SolarNOAA/Support Files/Info.plist";
+				INFOPLIST_FILE = "Support Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -537,7 +577,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rlxone.SolarNOAA;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SolarNOAA;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -548,12 +589,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "SolarNOAA/Support Files/Info.plist";
+				INFOPLIST_FILE = "Support Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -561,7 +603,8 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rlxone.SolarNOAA;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SolarNOAA;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -574,12 +617,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "SolarNOAA/Support Files/Info.plist";
+				INFOPLIST_FILE = "Support Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -587,7 +631,8 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rlxone.SolarNOAA;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SolarNOAA;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -600,12 +645,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "SolarNOAA/Support Files/Info.plist";
+				INFOPLIST_FILE = "Support Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -613,7 +659,8 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rlxone.SolarNOAA;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SolarNOAA;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -626,12 +673,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "SolarNOAA/Support Files/Info.plist";
+				INFOPLIST_FILE = "Support Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -639,7 +687,8 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rlxone.SolarNOAA;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SolarNOAA;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;

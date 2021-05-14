@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SolarNOAA.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SharedSolar/SharedSolar.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:iOS Example/iOS Example.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:macOS Example/macOS Example.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:watchOS Example/watchOS Example.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:tvOS Example/tvOS Example.xcodeproj">
+   </FileRef>
+</Workspace>

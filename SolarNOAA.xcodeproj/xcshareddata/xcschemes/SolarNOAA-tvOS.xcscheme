@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F35B1C41264DCF2900315997"
-               BuildableName = "SolarNOAA_tvOS.framework"
+               BuildableName = "SolarNOAA.framework"
                BlueprintName = "SolarNOAA-tvOS"
                ReferencedContainer = "container:SolarNOAA.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F35B1C41264DCF2900315997"
-            BuildableName = "SolarNOAA_tvOS.framework"
+            BuildableName = "SolarNOAA.framework"
             BlueprintName = "SolarNOAA-tvOS"
             ReferencedContainer = "container:SolarNOAA.xcodeproj">
          </BuildableReference>

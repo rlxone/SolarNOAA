@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F35B1C27264DCEFF00315997"
-               BuildableName = "SolarNOAA.framework"
-               BlueprintName = "SolarNOAA-macOS"
-               ReferencedContainer = "container:SolarNOAA.xcodeproj">
+               BlueprintIdentifier = "F35B1D6C264E0F4700315997"
+               BuildableName = "SharedSolar.framework"
+               BlueprintName = "SharedSolar-watchOS"
+               ReferencedContainer = "container:SharedSolar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,10 +50,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F35B1C27264DCEFF00315997"
-            BuildableName = "SolarNOAA.framework"
-            BlueprintName = "SolarNOAA-macOS"
-            ReferencedContainer = "container:SolarNOAA.xcodeproj">
+            BlueprintIdentifier = "F35B1D6C264E0F4700315997"
+            BuildableName = "SharedSolar.framework"
+            BlueprintName = "SharedSolar-watchOS"
+            ReferencedContainer = "container:SharedSolar.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

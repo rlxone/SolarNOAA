@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F35B1DF4264EB42C00315997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1DF3264EB42C00315997 /* AppDelegate.swift */; };
+		F35B1DF6264EB42C00315997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1DF5264EB42C00315997 /* ViewController.swift */; };
+		F35B1DF9264EB42C00315997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35B1DF7264EB42C00315997 /* Main.storyboard */; };
+		F35B1DFB264EB42D00315997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35B1DFA264EB42D00315997 /* Assets.xcassets */; };
+		F35B1DFE264EB42D00315997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35B1DFC264EB42D00315997 /* LaunchScreen.storyboard */; };
+		F35B1E4C264EC2FA00315997 /* SharedSolar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35B1E24264EB49300315997 /* SharedSolar.framework */; };
+		F35B1E4D264EC2FA00315997 /* SharedSolar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F35B1E24264EB49300315997 /* SharedSolar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F35B1E1D264EB49300315997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35B1E16264EB49300315997 /* SharedSolar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F35B1CBF264DF42800315997;
+			remoteInfo = "SharedSolar-iOS";
+		};
+		F35B1E1F264EB49300315997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35B1E16264EB49300315997 /* SharedSolar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F35B1D1B264E099C00315997;
+			remoteInfo = "SharedSolar-macOS";
+		};
+		F35B1E21264EB49300315997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35B1E16264EB49300315997 /* SharedSolar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F35B1D6D264E0F4700315997;
+			remoteInfo = "SharedSolar-watchOS";
+		};
+		F35B1E23264EB49300315997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35B1E16264EB49300315997 /* SharedSolar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F35B1E0A264EB44E00315997;
+			remoteInfo = "SharedSolar-tvOS";
+		};
+		F35B1E25264EB49900315997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35B1E16264EB49300315997 /* SharedSolar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F35B1E09264EB44E00315997;
+			remoteInfo = "SharedSolar-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F35B1E4E264EC2FA00315997 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F35B1E4D264EC2FA00315997 /* SharedSolar.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F35B1DF0264EB42C00315997 /* tvOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tvOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35B1DF3264EB42C00315997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F35B1DF5264EB42C00315997 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F35B1DF8264EB42C00315997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F35B1DFA264EB42D00315997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F35B1DFD264EB42D00315997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F35B1DFF264EB42D00315997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35B1E16264EB49300315997 /* SharedSolar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SharedSolar.xcodeproj; path = ../SharedSolar/SharedSolar.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F35B1DED264EB42C00315997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35B1E4C264EC2FA00315997 /* SharedSolar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F35B1DE7264EB42C00315997 = {
+			isa = PBXGroup;
+			children = (
+				F35B1DF2264EB42C00315997 /* tvOS Example */,
+				F35B1DF1264EB42C00315997 /* Products */,
+				F35B1E15264EB49300315997 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F35B1DF1264EB42C00315997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F35B1DF0264EB42C00315997 /* tvOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F35B1DF2264EB42C00315997 /* tvOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				F35B1DF3264EB42C00315997 /* AppDelegate.swift */,
+				F35B1DF5264EB42C00315997 /* ViewController.swift */,
+				F35B1DF7264EB42C00315997 /* Main.storyboard */,
+				F35B1DFA264EB42D00315997 /* Assets.xcassets */,
+				F35B1DFC264EB42D00315997 /* LaunchScreen.storyboard */,
+				F35B1DFF264EB42D00315997 /* Info.plist */,
+			);
+			path = "tvOS Example";
+			sourceTree = "<group>";
+		};
+		F35B1E15264EB49300315997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F35B1E16264EB49300315997 /* SharedSolar.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F35B1E17264EB49300315997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F35B1E1E264EB49300315997 /* SharedSolar.framework */,
+				F35B1E20264EB49300315997 /* SharedSolar.framework */,
+				F35B1E22264EB49300315997 /* SharedSolar.framework */,
+				F35B1E24264EB49300315997 /* SharedSolar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F35B1DEF264EB42C00315997 /* tvOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35B1E02264EB42D00315997 /* Build configuration list for PBXNativeTarget "tvOS Example" */;
+			buildPhases = (
+				F35B1DEC264EB42C00315997 /* Sources */,
+				F35B1DED264EB42C00315997 /* Frameworks */,
+				F35B1DEE264EB42C00315997 /* Resources */,
+				F35B1E4E264EC2FA00315997 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35B1E26264EB49900315997 /* PBXTargetDependency */,
+			);
+			name = "tvOS Example";
+			productName = "tvOS Example";
+			productReference = F35B1DF0264EB42C00315997 /* tvOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F35B1DE8264EB42C00315997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F35B1DEF264EB42C00315997 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = F35B1DEB264EB42C00315997 /* Build configuration list for PBXProject "tvOS Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F35B1DE7264EB42C00315997;
+			productRefGroup = F35B1DF1264EB42C00315997 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F35B1E17264EB49300315997 /* Products */;
+					ProjectRef = F35B1E16264EB49300315997 /* SharedSolar.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F35B1DEF264EB42C00315997 /* tvOS Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F35B1E1E264EB49300315997 /* SharedSolar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SharedSolar.framework;
+			remoteRef = F35B1E1D264EB49300315997 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F35B1E20264EB49300315997 /* SharedSolar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SharedSolar.framework;
+			remoteRef = F35B1E1F264EB49300315997 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F35B1E22264EB49300315997 /* SharedSolar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SharedSolar.framework;
+			remoteRef = F35B1E21264EB49300315997 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F35B1E24264EB49300315997 /* SharedSolar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SharedSolar.framework;
+			remoteRef = F35B1E23264EB49300315997 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F35B1DEE264EB42C00315997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35B1DFE264EB42D00315997 /* LaunchScreen.storyboard in Resources */,
+				F35B1DFB264EB42D00315997 /* Assets.xcassets in Resources */,
+				F35B1DF9264EB42C00315997 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F35B1DEC264EB42C00315997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35B1DF6264EB42C00315997 /* ViewController.swift in Sources */,
+				F35B1DF4264EB42C00315997 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F35B1E26264EB49900315997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SharedSolar-tvOS";
+			targetProxy = F35B1E25264EB49900315997 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F35B1DF7264EB42C00315997 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35B1DF8264EB42C00315997 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F35B1DFC264EB42D00315997 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35B1DFD264EB42D00315997 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F35B1E00264EB42D00315997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+			};
+			name = Debug;
+		};
+		F35B1E01264EB42D00315997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F35B1E03264EB42D00315997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "tvOS Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rlxone.tvOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		F35B1E04264EB42D00315997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "tvOS Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rlxone.tvOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F35B1DEB264EB42C00315997 /* Build configuration list for PBXProject "tvOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35B1E00264EB42D00315997 /* Debug */,
+				F35B1E01264EB42D00315997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35B1E02264EB42D00315997 /* Build configuration list for PBXNativeTarget "tvOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35B1E03264EB42D00315997 /* Debug */,
+				F35B1E04264EB42D00315997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F35B1DE8264EB42C00315997 /* Project object */;
+}
