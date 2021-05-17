@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F33BED0A2652C07A002E45FC /* SharedSolar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35B1DE4264EADAE00315997 /* SharedSolar.framework */; };
 		F35B1D3F264E0CE000315997 /* watchOS Example WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F35B1D3E264E0CE000315997 /* watchOS Example WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F35B1D45264E0CE000315997 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35B1D43264E0CE000315997 /* Interface.storyboard */; };
 		F35B1D47264E0CE100315997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35B1D46264E0CE100315997 /* Assets.xcassets */; };
@@ -15,8 +16,7 @@
 		F35B1D55264E0CE100315997 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1D54264E0CE100315997 /* ExtensionDelegate.swift */; };
 		F35B1D57264E0CE100315997 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1D56264E0CE100315997 /* ComplicationController.swift */; };
 		F35B1D59264E0CE100315997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35B1D58264E0CE100315997 /* Assets.xcassets */; };
-		F35B1E49264EC2F400315997 /* SharedSolar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35B1DE4264EADAE00315997 /* SharedSolar.framework */; };
-		F35B1E4A264EC2F400315997 /* SharedSolar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F35B1DE4264EADAE00315997 /* SharedSolar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F3E7A8422652BAA5007AAD65 /* SharedSolar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F35B1DE4264EADAE00315997 /* SharedSolar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,19 +55,19 @@
 			remoteGlobalIDString = F35B1D6D264E0F4700315997;
 			remoteInfo = "SharedSolar-watchOS";
 		};
-		F35B1DE5264EAED300315997 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F35B1DD9264EADAE00315997 /* SharedSolar.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F35B1D6C264E0F4700315997;
-			remoteInfo = "SharedSolar-watchOS";
-		};
 		F35B1E47264EC2F400315997 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F35B1DD9264EADAE00315997 /* SharedSolar.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F35B1E0A264EB44E00315997;
 			remoteInfo = "SharedSolar-tvOS";
+		};
+		F3E7A8442652BAAE007AAD65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35B1DD9264EADAE00315997 /* SharedSolar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F35B1D6C264E0F4700315997;
+			remoteInfo = "SharedSolar-watchOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -94,13 +94,13 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F35B1E4B264EC2F400315997 /* Embed Frameworks */ = {
+		F3E7A8432652BAA5007AAD65 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F35B1E4A264EC2F400315997 /* SharedSolar.framework in Embed Frameworks */,
+				F3E7A8422652BAA5007AAD65 /* SharedSolar.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F35B1E49264EC2F400315997 /* SharedSolar.framework in Frameworks */,
+				F33BED0A2652C07A002E45FC /* SharedSolar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,12 +239,12 @@
 				F35B1D49264E0CE100315997 /* Sources */,
 				F35B1D4A264E0CE100315997 /* Frameworks */,
 				F35B1D4B264E0CE100315997 /* Resources */,
-				F35B1E4B264EC2F400315997 /* Embed Frameworks */,
+				F3E7A8432652BAA5007AAD65 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F35B1DE6264EAED300315997 /* PBXTargetDependency */,
+				F3E7A8452652BAAE007AAD65 /* PBXTargetDependency */,
 			);
 			name = "watchOS Example WatchKit Extension";
 			productName = "watchOS Example WatchKit Extension";
@@ -379,10 +379,10 @@
 			target = F35B1D4C264E0CE100315997 /* watchOS Example WatchKit Extension */;
 			targetProxy = F35B1D4F264E0CE100315997 /* PBXContainerItemProxy */;
 		};
-		F35B1DE6264EAED300315997 /* PBXTargetDependency */ = {
+		F3E7A8452652BAAE007AAD65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SharedSolar-watchOS";
-			targetProxy = F35B1DE5264EAED300315997 /* PBXContainerItemProxy */;
+			targetProxy = F3E7A8442652BAAE007AAD65 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -435,6 +435,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -495,6 +496,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

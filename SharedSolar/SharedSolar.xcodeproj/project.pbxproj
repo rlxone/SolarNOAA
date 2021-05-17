@@ -34,6 +34,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F33BED102652C19F002E45FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35B1DA4264EAA6700315997 /* SolarNOAA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F35B1E54264F58E300315997;
+			remoteInfo = "SolarNOAA-iOS-Tests";
+		};
+		F33BED122652C19F002E45FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35B1DA4264EAA6700315997 /* SolarNOAA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F35B1E63264F5A1E00315997;
+			remoteInfo = "SolarNOAA-macOS-Tests";
+		};
+		F33BED142652C19F002E45FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35B1DA4264EAA6700315997 /* SolarNOAA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F35B1E73264F5B9000315997;
+			remoteInfo = "SolarNOAA-watchOS-Tests";
+		};
+		F33BED162652C19F002E45FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35B1DA4264EAA6700315997 /* SolarNOAA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F35B1E83264F5CDB00315997;
+			remoteInfo = "SolarNOAA-tvOS-Tests";
+		};
 		F35B1DAB264EAA6700315997 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F35B1DA4264EAA6700315997 /* SolarNOAA.xcodeproj */;
@@ -233,9 +261,13 @@
 			isa = PBXGroup;
 			children = (
 				F35B1DAC264EAA6700315997 /* SolarNOAA.framework */,
+				F33BED112652C19F002E45FC /* SolarNOAA-iOS-Tests.xctest */,
 				F35B1DAE264EAA6700315997 /* SolarNOAA.framework */,
+				F33BED132652C19F002E45FC /* SolarNOAA-macOS-Tests.xctest */,
 				F35B1DB0264EAA6700315997 /* SolarNOAA.framework */,
+				F33BED152652C19F002E45FC /* SolarNOAA-watchOS-Tests.xctest */,
 				F35B1DB2264EAA6700315997 /* SolarNOAA.framework */,
+				F33BED172652C19F002E45FC /* SolarNOAA-tvOS-Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -404,6 +436,34 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		F33BED112652C19F002E45FC /* SolarNOAA-iOS-Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SolarNOAA-iOS-Tests.xctest";
+			remoteRef = F33BED102652C19F002E45FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F33BED132652C19F002E45FC /* SolarNOAA-macOS-Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SolarNOAA-macOS-Tests.xctest";
+			remoteRef = F33BED122652C19F002E45FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F33BED152652C19F002E45FC /* SolarNOAA-watchOS-Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SolarNOAA-watchOS-Tests.xctest";
+			remoteRef = F33BED142652C19F002E45FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F33BED172652C19F002E45FC /* SolarNOAA-tvOS-Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SolarNOAA-tvOS-Tests.xctest";
+			remoteRef = F33BED162652C19F002E45FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		F35B1DAC264EAA6700315997 /* SolarNOAA.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -648,6 +708,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -782,6 +843,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = "Support Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -797,6 +859,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_WORKSPACE = NO;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -811,6 +874,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = "Support Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -826,6 +890,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_WORKSPACE = NO;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;

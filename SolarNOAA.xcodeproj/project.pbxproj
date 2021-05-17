@@ -19,7 +19,54 @@
 		F35B1D2C264E0B6900315997 /* SolarMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C4F264DD14600315997 /* SolarMath.swift */; };
 		F35B1D2D264E0B6900315997 /* Solar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C4E264DD14600315997 /* Solar.swift */; };
 		F35B1D2E264E0B6900315997 /* FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C50264DD14600315997 /* FloatingPoint.swift */; };
+		F35B1E57264F58E300315997 /* SolarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E56264F58E300315997 /* SolarTests.swift */; };
+		F35B1E59264F58E300315997 /* SolarNOAA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35B1C18264DCECD00315997 /* SolarNOAA.framework */; };
+		F35B1E68264F5A1E00315997 /* SolarNOAA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35B1C28264DCEFF00315997 /* SolarNOAA.framework */; };
+		F35B1E6E264F5B3F00315997 /* SolarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E56264F58E300315997 /* SolarTests.swift */; };
+		F35B1E78264F5B9000315997 /* SolarNOAA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35B1C35264DCF1700315997 /* SolarNOAA.framework */; };
+		F35B1E7E264F5BC700315997 /* SolarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E56264F58E300315997 /* SolarTests.swift */; };
+		F35B1E88264F5CDB00315997 /* SolarNOAA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35B1C42264DCF2900315997 /* SolarNOAA.framework */; };
+		F35B1E8E264F5CEB00315997 /* SolarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E56264F58E300315997 /* SolarTests.swift */; };
+		F35B1E91264F6AFD00315997 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E8F264F60FC00315997 /* TestData.swift */; };
+		F35B1E92264F6B0200315997 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E8F264F60FC00315997 /* TestData.swift */; };
+		F35B1E93264F6B0500315997 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E8F264F60FC00315997 /* TestData.swift */; };
+		F35B1E94264F6B0900315997 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E8F264F60FC00315997 /* TestData.swift */; };
+		F35B1E96264F715900315997 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E95264F715900315997 /* Extensions.swift */; };
+		F35B1E97264F715900315997 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E95264F715900315997 /* Extensions.swift */; };
+		F35B1E98264F715900315997 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E95264F715900315997 /* Extensions.swift */; };
+		F35B1E99264F715900315997 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E95264F715900315997 /* Extensions.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F35B1E5A264F58E300315997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35B1C0F264DCECD00315997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35B1C17264DCECD00315997;
+			remoteInfo = "SolarNOAA-iOS";
+		};
+		F35B1E69264F5A1E00315997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35B1C0F264DCECD00315997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35B1C27264DCEFF00315997;
+			remoteInfo = "SolarNOAA-macOS";
+		};
+		F35B1E79264F5B9000315997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35B1C0F264DCECD00315997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35B1C34264DCF1700315997;
+			remoteInfo = "SolarNOAA-watchOS";
+		};
+		F35B1E89264F5CDB00315997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35B1C0F264DCECD00315997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35B1C41264DCF2900315997;
+			remoteInfo = "SolarNOAA-tvOS";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F35B1C18264DCECD00315997 /* SolarNOAA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SolarNOAA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,7 +77,14 @@
 		F35B1C4E264DD14600315997 /* Solar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solar.swift; sourceTree = "<group>"; };
 		F35B1C4F264DD14600315997 /* SolarMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolarMath.swift; sourceTree = "<group>"; };
 		F35B1C50264DD14600315997 /* FloatingPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingPoint.swift; sourceTree = "<group>"; };
-		F35B1DA0264EAA2900315997 /* SolarNOAA.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SolarNOAA.xcodeproj; sourceTree = "<group>"; };
+		F35B1E54264F58E300315997 /* SolarNOAA-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SolarNOAA-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35B1E56264F58E300315997 /* SolarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarTests.swift; sourceTree = "<group>"; };
+		F35B1E58264F58E300315997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35B1E63264F5A1E00315997 /* SolarNOAA-macOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SolarNOAA-macOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35B1E73264F5B9000315997 /* SolarNOAA-watchOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SolarNOAA-watchOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35B1E83264F5CDB00315997 /* SolarNOAA-tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SolarNOAA-tvOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35B1E8F264F60FC00315997 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		F35B1E95264F715900315997 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +116,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F35B1E51264F58E300315997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35B1E59264F58E300315997 /* SolarNOAA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35B1E60264F5A1E00315997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35B1E68264F5A1E00315997 /* SolarNOAA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35B1E70264F5B9000315997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35B1E78264F5B9000315997 /* SolarNOAA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35B1E80264F5CDB00315997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35B1E88264F5CDB00315997 /* SolarNOAA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -69,9 +155,9 @@
 			isa = PBXGroup;
 			children = (
 				F35B1C4C264DD07300315997 /* Sources */,
+				F35B1E55264F58E300315997 /* Tests */,
 				F35B1C4D264DD07900315997 /* Support Files */,
 				F35B1C19264DCECD00315997 /* Products */,
-				F35B1D9F264EAA2900315997 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +168,10 @@
 				F35B1C28264DCEFF00315997 /* SolarNOAA.framework */,
 				F35B1C35264DCF1700315997 /* SolarNOAA.framework */,
 				F35B1C42264DCF2900315997 /* SolarNOAA.framework */,
+				F35B1E54264F58E300315997 /* SolarNOAA-iOS-Tests.xctest */,
+				F35B1E63264F5A1E00315997 /* SolarNOAA-macOS-Tests.xctest */,
+				F35B1E73264F5B9000315997 /* SolarNOAA-watchOS-Tests.xctest */,
+				F35B1E83264F5CDB00315997 /* SolarNOAA-tvOS-Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,17 +194,23 @@
 			path = "Support Files";
 			sourceTree = "<group>";
 		};
-		F35B1D9F264EAA2900315997 /* Frameworks */ = {
+		F35B1E55264F58E300315997 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F35B1DA0264EAA2900315997 /* SolarNOAA.xcodeproj */,
+				F35B1E9A2650667600315997 /* Helpers */,
+				F35B1E56264F58E300315997 /* SolarTests.swift */,
+				F35B1E58264F58E300315997 /* Info.plist */,
 			);
-			name = Frameworks;
+			path = Tests;
 			sourceTree = "<group>";
 		};
-		F35B1DA1264EAA2900315997 /* Products */ = {
+		F35B1E9A2650667600315997 /* Helpers */ = {
 			isa = PBXGroup;
-			name = Products;
+			children = (
+				F35B1E8F264F60FC00315997 /* TestData.swift */,
+				F35B1E95264F715900315997 /* Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,12 +319,85 @@
 			productReference = F35B1C42264DCF2900315997 /* SolarNOAA.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		F35B1E53264F58E300315997 /* SolarNOAA-iOS-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35B1E5C264F58E300315997 /* Build configuration list for PBXNativeTarget "SolarNOAA-iOS-Tests" */;
+			buildPhases = (
+				F35B1E50264F58E300315997 /* Sources */,
+				F35B1E51264F58E300315997 /* Frameworks */,
+				F35B1E52264F58E300315997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35B1E5B264F58E300315997 /* PBXTargetDependency */,
+			);
+			name = "SolarNOAA-iOS-Tests";
+			productName = "SolarNOAA-iOS-Tests";
+			productReference = F35B1E54264F58E300315997 /* SolarNOAA-iOS-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F35B1E62264F5A1E00315997 /* SolarNOAA-macOS-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35B1E6B264F5A1E00315997 /* Build configuration list for PBXNativeTarget "SolarNOAA-macOS-Tests" */;
+			buildPhases = (
+				F35B1E5F264F5A1E00315997 /* Sources */,
+				F35B1E60264F5A1E00315997 /* Frameworks */,
+				F35B1E61264F5A1E00315997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35B1E6A264F5A1E00315997 /* PBXTargetDependency */,
+			);
+			name = "SolarNOAA-macOS-Tests";
+			productName = "SolarNOAA-macOS-Tests";
+			productReference = F35B1E63264F5A1E00315997 /* SolarNOAA-macOS-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F35B1E72264F5B9000315997 /* SolarNOAA-watchOS-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35B1E7B264F5B9000315997 /* Build configuration list for PBXNativeTarget "SolarNOAA-watchOS-Tests" */;
+			buildPhases = (
+				F35B1E6F264F5B9000315997 /* Sources */,
+				F35B1E70264F5B9000315997 /* Frameworks */,
+				F35B1E71264F5B9000315997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35B1E7A264F5B9000315997 /* PBXTargetDependency */,
+			);
+			name = "SolarNOAA-watchOS-Tests";
+			productName = "SolarNOAA-watchOS-Tests";
+			productReference = F35B1E73264F5B9000315997 /* SolarNOAA-watchOS-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F35B1E82264F5CDB00315997 /* SolarNOAA-tvOS-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35B1E8B264F5CDB00315997 /* Build configuration list for PBXNativeTarget "SolarNOAA-tvOS-Tests" */;
+			buildPhases = (
+				F35B1E7F264F5CDB00315997 /* Sources */,
+				F35B1E80264F5CDB00315997 /* Frameworks */,
+				F35B1E81264F5CDB00315997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35B1E8A264F5CDB00315997 /* PBXTargetDependency */,
+			);
+			name = "SolarNOAA-tvOS-Tests";
+			productName = "SolarNOAA-tvOS-Tests";
+			productReference = F35B1E83264F5CDB00315997 /* SolarNOAA-tvOS-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F35B1C0F264DCECD00315997 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					F35B1C17264DCECD00315997 = {
@@ -244,6 +413,18 @@
 					F35B1C41264DCF2900315997 = {
 						CreatedOnToolsVersion = 12.5;
 					};
+					F35B1E53264F58E300315997 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					F35B1E62264F5A1E00315997 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					F35B1E72264F5B9000315997 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					F35B1E82264F5CDB00315997 = {
+						CreatedOnToolsVersion = 12.5;
+					};
 				};
 			};
 			buildConfigurationList = F35B1C12264DCECD00315997 /* Build configuration list for PBXProject "SolarNOAA" */;
@@ -257,18 +438,16 @@
 			mainGroup = F35B1C0E264DCECD00315997;
 			productRefGroup = F35B1C19264DCECD00315997 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = F35B1DA1264EAA2900315997 /* Products */;
-					ProjectRef = F35B1DA0264EAA2900315997 /* SolarNOAA.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				F35B1C17264DCECD00315997 /* SolarNOAA-iOS */,
+				F35B1E53264F58E300315997 /* SolarNOAA-iOS-Tests */,
 				F35B1C27264DCEFF00315997 /* SolarNOAA-macOS */,
+				F35B1E62264F5A1E00315997 /* SolarNOAA-macOS-Tests */,
 				F35B1C34264DCF1700315997 /* SolarNOAA-watchOS */,
+				F35B1E72264F5B9000315997 /* SolarNOAA-watchOS-Tests */,
 				F35B1C41264DCF2900315997 /* SolarNOAA-tvOS */,
+				F35B1E82264F5CDB00315997 /* SolarNOAA-tvOS-Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -296,6 +475,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F35B1C40264DCF2900315997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35B1E52264F58E300315997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35B1E61264F5A1E00315997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35B1E71264F5B9000315997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35B1E81264F5CDB00315997 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,7 +552,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F35B1E50264F58E300315997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35B1E91264F6AFD00315997 /* TestData.swift in Sources */,
+				F35B1E96264F715900315997 /* Extensions.swift in Sources */,
+				F35B1E57264F58E300315997 /* SolarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35B1E5F264F5A1E00315997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35B1E92264F6B0200315997 /* TestData.swift in Sources */,
+				F35B1E97264F715900315997 /* Extensions.swift in Sources */,
+				F35B1E6E264F5B3F00315997 /* SolarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35B1E6F264F5B9000315997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35B1E93264F6B0500315997 /* TestData.swift in Sources */,
+				F35B1E98264F715900315997 /* Extensions.swift in Sources */,
+				F35B1E7E264F5BC700315997 /* SolarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35B1E7F264F5CDB00315997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35B1E94264F6B0900315997 /* TestData.swift in Sources */,
+				F35B1E99264F715900315997 /* Extensions.swift in Sources */,
+				F35B1E8E264F5CEB00315997 /* SolarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F35B1E5B264F58E300315997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35B1C17264DCECD00315997 /* SolarNOAA-iOS */;
+			targetProxy = F35B1E5A264F58E300315997 /* PBXContainerItemProxy */;
+		};
+		F35B1E6A264F5A1E00315997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35B1C27264DCEFF00315997 /* SolarNOAA-macOS */;
+			targetProxy = F35B1E69264F5A1E00315997 /* PBXContainerItemProxy */;
+		};
+		F35B1E7A264F5B9000315997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35B1C34264DCF1700315997 /* SolarNOAA-watchOS */;
+			targetProxy = F35B1E79264F5B9000315997 /* PBXContainerItemProxy */;
+		};
+		F35B1E8A264F5CDB00315997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35B1C41264DCF2900315997 /* SolarNOAA-tvOS */;
+			targetProxy = F35B1E89264F5CDB00315997 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F35B1C1E264DCECD00315997 /* Debug */ = {
@@ -461,6 +731,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -697,6 +968,160 @@
 			};
 			name = Release;
 		};
+		F35B1E5D264F58E300315997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rlxone.SolarNOAA-iOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F35B1E5E264F58E300315997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rlxone.SolarNOAA-iOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F35B1E6C264F5A1E00315997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rlxone.SolarNOAA-macOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F35B1E6D264F5A1E00315997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rlxone.SolarNOAA-macOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F35B1E7C264F5B9000315997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rlxone.SolarNOAA-watchOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		F35B1E7D264F5B9000315997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rlxone.SolarNOAA-watchOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		F35B1E8C264F5CDB00315997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rlxone.SolarNOAA-tvOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+			};
+			name = Debug;
+		};
+		F35B1E8D264F5CDB00315997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rlxone.SolarNOAA-tvOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -741,6 +1166,42 @@
 			buildConfigurations = (
 				F35B1C48264DCF2900315997 /* Debug */,
 				F35B1C49264DCF2900315997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35B1E5C264F58E300315997 /* Build configuration list for PBXNativeTarget "SolarNOAA-iOS-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35B1E5D264F58E300315997 /* Debug */,
+				F35B1E5E264F58E300315997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35B1E6B264F5A1E00315997 /* Build configuration list for PBXNativeTarget "SolarNOAA-macOS-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35B1E6C264F5A1E00315997 /* Debug */,
+				F35B1E6D264F5A1E00315997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35B1E7B264F5B9000315997 /* Build configuration list for PBXNativeTarget "SolarNOAA-watchOS-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35B1E7C264F5B9000315997 /* Debug */,
+				F35B1E7D264F5B9000315997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35B1E8B264F5CDB00315997 /* Build configuration list for PBXNativeTarget "SolarNOAA-tvOS-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35B1E8C264F5CDB00315997 /* Debug */,
+				F35B1E8D264F5CDB00315997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

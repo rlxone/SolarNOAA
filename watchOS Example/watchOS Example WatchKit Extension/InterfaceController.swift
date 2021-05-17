@@ -26,8 +26,8 @@ class InterfaceController: WKInterfaceController {
     
     let city = City(
         name: "Chicago",
-        longitude: -98.583,
-        latitude: 39.833
+        longitude: -87.623177,
+        latitude: 41.881832
     )
     
     let dayTime = DayTime(
@@ -52,12 +52,12 @@ class InterfaceController: WKInterfaceController {
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "EEEE, MMM d, yyyy"
-        dateFormatter.timeZone = TimeZone(identifier: "GMT")
+        dateFormatter.timeZone = TimeZone(identifier: "UTC")
         
         cityLabel.setText(city.name)
         latitudeLabel.setText("Latitude: \(city.latitude)")
         longitudeLabel.setText("Longitude: \(city.longitude)")
-        timezoneLabel.setText("Timezone: GMT \(dayTime.timezone)")
+        timezoneLabel.setText("Timezone: UTC \(dayTime.timezone)")
         dateLabel.setText("Date: \(dateFormatter.string(from: dayTime.date))")
         timeLabel.setText("Time: \(dayTime.hours)h \(dayTime.minutes)m \(dayTime.seconds)s")
         

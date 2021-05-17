@@ -24,8 +24,8 @@ class ViewController: NSViewController {
     
     let city = City(
         name: "Chicago",
-        longitude: -98.583,
-        latitude: 39.833
+        longitude: -87.623177,
+        latitude: 41.881832
     )
     
     let dayTime = DayTime(
@@ -51,12 +51,12 @@ class ViewController: NSViewController {
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "EEEE, MMM d, yyyy"
-        dateFormatter.timeZone = TimeZone(identifier: "GMT")
+        dateFormatter.timeZone = TimeZone(identifier: "UTC")
         
         cityLabel.stringValue = city.name
         latitudeLabel.stringValue = "Latitude: \(city.latitude)"
         longitudeLabel.stringValue = "Longitude: \(city.longitude)"
-        timezoneLabel.stringValue = "Timezone: GMT \(dayTime.timezone)"
+        timezoneLabel.stringValue = "Timezone: UTC \(dayTime.timezone)"
         dateLabel.stringValue = "Date: \(dateFormatter.string(from: dayTime.date))"
         timeLabel.stringValue = "Time: \(dayTime.hours)h \(dayTime.minutes)m \(dayTime.seconds)s"
         

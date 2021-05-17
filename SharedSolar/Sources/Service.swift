@@ -20,7 +20,7 @@ public struct Service {
     public func calculate() -> Result {
         // Get current date
         var calendar = Calendar.current
-        calendar.timeZone = TimeZone(identifier: "GMT")!
+        calendar.timeZone = TimeZone(identifier: "UTC")!
         
         let year = calendar.component(.year, from: dayTime.date)
         let month = calendar.component(.month, from: dayTime.date)
@@ -88,7 +88,7 @@ public struct Service {
         
         let timeFormatter = DateFormatter()
         timeFormatter.dateFormat = "HH:mm:ss"
-        timeFormatter.timeZone = TimeZone(identifier:"GMT")
+        timeFormatter.timeZone = TimeZone(identifier: "UTC")
         
         return Result(
             sunrise: timeFormatter.string(from: sunriseDate),
