@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F30583F426534A95008DA290 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E8F264F60FC00315997 /* TestData.swift */; };
+		F30583F526534A95008DA290 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E95264F715900315997 /* Extensions.swift */; };
+		F30583F626534A95008DA290 /* SolarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E56264F58E300315997 /* SolarTests.swift */; };
 		F35B1C51264DD14600315997 /* Solar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C4E264DD14600315997 /* Solar.swift */; };
 		F35B1C52264DD14600315997 /* SolarMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C4F264DD14600315997 /* SolarMath.swift */; };
 		F35B1C53264DD14600315997 /* FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C50264DD14600315997 /* FloatingPoint.swift */; };
@@ -24,16 +27,13 @@
 		F35B1E68264F5A1E00315997 /* SolarNOAA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35B1C28264DCEFF00315997 /* SolarNOAA.framework */; };
 		F35B1E6E264F5B3F00315997 /* SolarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E56264F58E300315997 /* SolarTests.swift */; };
 		F35B1E78264F5B9000315997 /* SolarNOAA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35B1C35264DCF1700315997 /* SolarNOAA.framework */; };
-		F35B1E7E264F5BC700315997 /* SolarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E56264F58E300315997 /* SolarTests.swift */; };
 		F35B1E88264F5CDB00315997 /* SolarNOAA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35B1C42264DCF2900315997 /* SolarNOAA.framework */; };
 		F35B1E8E264F5CEB00315997 /* SolarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E56264F58E300315997 /* SolarTests.swift */; };
 		F35B1E91264F6AFD00315997 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E8F264F60FC00315997 /* TestData.swift */; };
 		F35B1E92264F6B0200315997 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E8F264F60FC00315997 /* TestData.swift */; };
-		F35B1E93264F6B0500315997 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E8F264F60FC00315997 /* TestData.swift */; };
 		F35B1E94264F6B0900315997 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E8F264F60FC00315997 /* TestData.swift */; };
 		F35B1E96264F715900315997 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E95264F715900315997 /* Extensions.swift */; };
 		F35B1E97264F715900315997 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E95264F715900315997 /* Extensions.swift */; };
-		F35B1E98264F715900315997 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E95264F715900315997 /* Extensions.swift */; };
 		F35B1E99264F715900315997 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E95264F715900315997 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -576,9 +576,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F35B1E93264F6B0500315997 /* TestData.swift in Sources */,
-				F35B1E98264F715900315997 /* Extensions.swift in Sources */,
-				F35B1E7E264F5BC700315997 /* SolarTests.swift in Sources */,
+				F30583F426534A95008DA290 /* TestData.swift in Sources */,
+				F30583F526534A95008DA290 /* Extensions.swift in Sources */,
+				F30583F626534A95008DA290 /* SolarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
