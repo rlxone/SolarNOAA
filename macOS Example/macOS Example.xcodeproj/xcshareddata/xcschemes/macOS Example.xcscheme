@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1250"
+   LastUpgradeVersion = "1240"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F35B1D1A264E099C00315997"
-               BuildableName = "SharedSolar.framework"
-               BlueprintName = "SharedSolar-macOS"
-               ReferencedContainer = "container:SharedSolar.xcodeproj">
+               BlueprintIdentifier = "F35B1CEB264E02AE00315997"
+               BuildableName = "macOS Example.app"
+               BlueprintName = "macOS Example"
+               ReferencedContainer = "container:macOS Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,6 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F35B1CEB264E02AE00315997"
+            BuildableName = "macOS Example.app"
+            BlueprintName = "macOS Example"
+            ReferencedContainer = "container:macOS Example.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -47,15 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F35B1D1A264E099C00315997"
-            BuildableName = "SharedSolar.framework"
-            BlueprintName = "SharedSolar-macOS"
-            ReferencedContainer = "container:SharedSolar.xcodeproj">
+            BlueprintIdentifier = "F35B1CEB264E02AE00315997"
+            BuildableName = "macOS Example.app"
+            BlueprintName = "macOS Example"
+            ReferencedContainer = "container:macOS Example.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

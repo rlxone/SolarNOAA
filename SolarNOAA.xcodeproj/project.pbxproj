@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F30583F426534A95008DA290 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E8F264F60FC00315997 /* TestData.swift */; };
+		F30583F526534A95008DA290 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E95264F715900315997 /* Extensions.swift */; };
+		F30583F626534A95008DA290 /* SolarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E56264F58E300315997 /* SolarTests.swift */; };
 		F35B1C51264DD14600315997 /* Solar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C4E264DD14600315997 /* Solar.swift */; };
 		F35B1C52264DD14600315997 /* SolarMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C4F264DD14600315997 /* SolarMath.swift */; };
 		F35B1C53264DD14600315997 /* FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1C50264DD14600315997 /* FloatingPoint.swift */; };
@@ -24,16 +27,13 @@
 		F35B1E68264F5A1E00315997 /* SolarNOAA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35B1C28264DCEFF00315997 /* SolarNOAA.framework */; };
 		F35B1E6E264F5B3F00315997 /* SolarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E56264F58E300315997 /* SolarTests.swift */; };
 		F35B1E78264F5B9000315997 /* SolarNOAA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35B1C35264DCF1700315997 /* SolarNOAA.framework */; };
-		F35B1E7E264F5BC700315997 /* SolarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E56264F58E300315997 /* SolarTests.swift */; };
 		F35B1E88264F5CDB00315997 /* SolarNOAA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35B1C42264DCF2900315997 /* SolarNOAA.framework */; };
 		F35B1E8E264F5CEB00315997 /* SolarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E56264F58E300315997 /* SolarTests.swift */; };
 		F35B1E91264F6AFD00315997 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E8F264F60FC00315997 /* TestData.swift */; };
 		F35B1E92264F6B0200315997 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E8F264F60FC00315997 /* TestData.swift */; };
-		F35B1E93264F6B0500315997 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E8F264F60FC00315997 /* TestData.swift */; };
 		F35B1E94264F6B0900315997 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E8F264F60FC00315997 /* TestData.swift */; };
 		F35B1E96264F715900315997 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E95264F715900315997 /* Extensions.swift */; };
 		F35B1E97264F715900315997 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E95264F715900315997 /* Extensions.swift */; };
-		F35B1E98264F715900315997 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E95264F715900315997 /* Extensions.swift */; };
 		F35B1E99264F715900315997 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1E95264F715900315997 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -576,9 +576,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F35B1E93264F6B0500315997 /* TestData.swift in Sources */,
-				F35B1E98264F715900315997 /* Extensions.swift in Sources */,
-				F35B1E7E264F5BC700315997 /* SolarTests.swift in Sources */,
+				F30583F426534A95008DA290 /* TestData.swift in Sources */,
+				F30583F526534A95008DA290 /* Extensions.swift in Sources */,
+				F30583F626534A95008DA290 /* SolarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +678,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -737,6 +738,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -768,7 +770,7 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -797,7 +799,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -826,7 +828,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -854,7 +856,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -880,7 +882,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -908,7 +910,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -936,7 +938,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -964,7 +966,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -1021,7 +1023,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rlxone.SolarNOAA-macOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1040,7 +1042,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rlxone.SolarNOAA-macOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1063,7 +1065,7 @@
 				SDKROOT = watchos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -1082,7 +1084,7 @@
 				SDKROOT = watchos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -1101,7 +1103,7 @@
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 14.5;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -1120,7 +1122,7 @@
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 14.5;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
