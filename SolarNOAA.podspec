@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'SolarNOAA'
-  spec.version = '1.0'
+  spec.version = '1.0.0'
   spec.license = 'MIT'
   spec.summary = '🌞 Calculation of local times of sunrise, solar noon, sunset, azimuth, elevation based on the calculation procedure by NOAA'
   spec.homepage = 'https://github.com/rlxone/SolarNOAA'
