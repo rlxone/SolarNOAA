@@ -9,13 +9,13 @@ Calculation of local times of `sunrise`, `solar noon`, `sunset`, `azimuth`, `ele
 ### CocoaPods
 [CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate **SolarNOAA** into your Xcode project using CocoaPods, specify it in your `Podfile`:
 ```ruby
-pod 'SolarNOAA', '~> 1.0'
+pod 'SolarNOAA', '~> 1.0.0'
 ```
 
 ### Carthage
 [Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate **SolarNOAA** into your Xcode project using Carthage, specify it in your `Cartfile`:
 ```ruby
-github "rlxone/SolarNOAA" ~> 1.0
+github "rlxone/SolarNOAA" ~> 1.0.0
 ```
 
 ### Swift Package Manager
@@ -25,7 +25,7 @@ Once you have your Swift package set up, adding **SolarNOAA** as a dependency is
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/rlxone/SolarNOAA.git", .upToNextMajor(from: "1.0"))
+    .package(url: "https://github.com/rlxone/SolarNOAA.git", .upToNextMajor(from: "1.0.0"))
 ]
 ```
 
