@@ -1,134 +1,72 @@
-# SolarNOAA 🌞
-Calculation of local times of sunrise, solar noon, sunset, azimuth, elevation based on the calculation procedure by NOAA
+<p align="center">
+  <img width="500" height="379" src="https://user-images.githubusercontent.com/8312717/118853830-dae9bf80-b8dc-11eb-8bef-2a25b0235460.png" />
+</p>
 
-### azimuth
-```swift
+# SolarNOAA
+Calculation of local times of `sunrise`, `solar noon`, `sunset`, `azimuth`, `elevation` based on the calculation procedure by [NOAA](http://www.srrb.noaa.gov/highlights/sunrise/sunrise.html)
 
-/// Calculate solar azimuth (deg from north) for the entered
-/// date, time and location. Returns -999999 if darker than twilight
-///
-/// - Parameters:
-///   - lat: latitude (decimal degrees)
-///   - lon: longitude (decimal degrees)
-///   - year: year
-///   - month: month
-///   - day: day
-///   - hours: hours
-///   - minutes: minutes
-///   - seconds: seconds
-///   - timezone: time zone hours relative to GMT/UTC (hours)
-///   - dlstime: daylight savings time (0 = no, 1 = yes) (hours)
-/// - Returns: solar azimuth in degrees from north
-/// - Note: longitude is negative for western hemisphere for input cells
-/// in the spreadsheet for calls to the functions named
-/// sunrise, solarnoon, and sunset. Those functions convert the
-/// longitude to positive for the western hemisphere for calls to
-/// other functions using the original sign convention
-/// from the NOAA javascript code.
-static func azimuth(lat: Double, lon: Double,
-                    year: Int, month: Int, day: Int,
-                    hours: Int, minutes: Int, seconds: Int,
-                    timezone: Int, dlstime: Int) -> Double
+## Installation
+### CocoaPods
+[CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate **SolarNOAA** into your Xcode project using CocoaPods, specify it in your `Podfile`:
+```ruby
+pod 'SolarNOAA', '~> 1.0'
 ```
-### elevation
-```swift
-/// Calculate elevation azimuth (deg from north) for the entered
-/// date, time and location.
-///
-/// - Parameters:
-///   - lat: latitude (decimal degrees)
-///   - lon: longitude (decimal degrees)
-///   - year: year
-///   - month: month
-///   - day: day
-///   - hours: hours
-///   - minutes: minutes
-///   - seconds: seconds
-///   - timezone: time zone hours relative to GMT/UTC (hours)
-///   - dlstime: daylight savings time (0 = no, 1 = yes) (hours)
-/// - Returns: solar elevation
-/// - Note: longitude is negative for western hemisphere for input cells
-/// in the spreadsheet for calls to the functions named
-/// sunrise, solarnoon, and sunset. Those functions convert the
-/// longitude to positive for the western hemisphere for calls to
-/// other functions using the original sign convention
-/// from the NOAA javascript code.
-static func elevation(lat: Double, lon: Double,
-                      year: Int, month: Int, day: Int,
-                      hours: Int, minutes: Int, seconds: Int,
-                      timezone: Int, dlstime: Int) -> Double
+
+### Carthage
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate **SolarNOAA** into your Xcode project using Carthage, specify it in your `Cartfile`:
+```ruby
+github "rlxone/SolarNOAA" ~> 1.0
 ```
-### sunrise
+
+### Swift Package Manager
+[Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the swift compiler.
+
+Once you have your Swift package set up, adding **SolarNOAA** as a dependency is as easy as adding it to the dependencies value of your `Package.swift`.
+
 ```swift
-/// Calculate time of sunrise  for the entered date and location.
-///
-/// - Parameters:
-///   - lat: latitude (decimal degrees)
-///   - lon: longitude (decimal degrees)
-///   - year: year
-///   - month: month
-///   - day: day
-///   - timezone: time zone hours relative to GMT/UTC (hours)
-///   - dlstime: daylight savings time (0 = no, 1 = yes) (hours)
-/// - Returns: sunrise time in local time (days)
-/// - Note: longitude is negative for western hemisphere for input cells
-/// in the spreadsheet for calls to the functions named
-/// sunrise, solarnoon, and sunset. Those functions convert the
-/// longitude to positive for the western hemisphere for calls to
-/// other functions using the original sign convention
-/// from the NOAA javascript code.
-static func sunrise(lat: Double, lon: Double,
-                    year: Int, month: Int, day: Int,
-                    timezone: Int, dlstime: Int) -> Double
+dependencies: [
+    .package(url: "https://github.com/rlxone/SolarNOAA.git", .upToNextMajor(from: "1.0"))
+]
 ```
-### sunset
+
+## Requirements
+- **iOS** 9.0 / **macOS** 10.9 / **tvOS** 9.0 / **watchOS** 2.0
+- Swift 5
+
+## Usage
 ```swift
-/// Calculate time of sunrise and sunset for the entered date
-/// and location.
-/// For latitudes greater than 72 degrees N and S, calculations are
-/// accurate to within 10 minutes. For latitudes less than +/- 72°
-/// accuracy is approximately one minute.
-///
-/// - Parameters:
-///   - lat: latitude (decimal degrees)
-///   - lon: longitude (decimal degrees)
-///   - year: year
-///   - month: month
-///   - day: day
-///   - timezone: time zone hours relative to GMT/UTC (hours)
-///   - dlstime: daylight savings time (0 = no, 1 = yes) (hours)
-/// - Returns: sunset time in local time (days)
-/// - Note: longitude is negative for western hemisphere for input cells
-/// in the spreadsheet for calls to the functions named
-/// sunrise, solarnoon, and sunset. Those functions convert the
-/// longitude to positive for the western hemisphere for calls to
-/// other functions using the original sign convention
-/// from the NOAA javascript code.
-static func sunset(lat: Double, lon: Double,
-                   year: Int, month: Int, day: Int,
-                   timezone: Int, dlstime: Int) -> Double
-```
-### solarnoon
-```swift
-/// Calculate the Universal Coordinated Time (UTC) of solar
-/// noon for the given day at the given location on earth
-///
-/// - Parameters:
-///   - lat: latitude (decimal degrees)
-///   - lon: longitude (decimal degrees)
-///   - year: year
-///   - month: month
-///   - day: day
-///   - timezone: time zone hours relative to GMT/UTC (hours)
-///   - dlstime: daylight savings time (0 = no, 1 = yes) (hours)
-/// - Returns: time of solar noon in local time days
-/// - Note: longitude is negative for western hemisphere for input cells
-/// in the spreadsheet for calls to the functions named
-/// sunrise, solarnoon, and sunset. Those functions convert the
-/// longitude to positive for the western hemisphere for calls to
-/// other functions using the original sign convention
-/// from the NOAA javascript code.
-static func solarnoon(lat: Double, lon: Double,
-                      year: Int, month: Int, day: Int,
-                      timezone: Int, dlstime: Int) -> Double
+// Chicago coordinates
+let latitude = 41.881832
+let longitude = -87.623177
+                
+// Timezone for UTC-5
+let timezone = -5
+                
+// Get current date
+let date = Date()
+var calendar = Calendar.current
+calendar.timeZone = TimeZone(identifier: "UTC")!
+                
+let year = calendar.component(.year, from: date)
+let month = calendar.component(.month, from: date)
+let day = calendar.component(.day, from: date)
+                
+// Get sunrise and sunset in days
+let sunriseDaysTime = Solar.sunrise(lat: latitude, lon: longitude, year: year, month: month, day: day, timezone: timezone, dlstime: 0)
+let sunsetDaysTime = Solar.sunset(lat: latitude, lon: longitude, year: year, month: month, day: day, timezone: timezone, dlstime: 0)
+                
+// Get date from sunrise and sunset days value
+let sunriseDate = Date(timeIntervalSince1970: sunriseDaysTime * 24 * 60 * 60)
+let sunsetDate = Date(timeIntervalSince1970: sunsetDaysTime * 24 * 60 * 60)
+                
+let timeFormatter = DateFormatter()
+timeFormatter.dateFormat = "HH:mm:ss"
+timeFormatter.timeZone = TimeZone(identifier: "UTC")
+                
+let dateFormatter = DateFormatter()
+dateFormatter.dateFormat = "EEEE, MMM d, yyyy"
+dateFormatter.timeZone = TimeZone(identifier: "UTC")
+                
+print("Chicago sunrise for \(dateFormatter.string(from: date)): \(timeFormatter.string(from: sunriseDate))")
+print("Chicago sunset for \(dateFormatter.string(from: date)): \(timeFormatter.string(from: sunsetDate))")
 ```
